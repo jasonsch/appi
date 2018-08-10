@@ -1,5 +1,5 @@
 # appi*
 Unofficial Pagliacci Pizza API.
 
-\* The extra 'p' is for ppizza†.  
-† That extra 'p' is a typo.
+<p>\* The extra 'p' is for ppizza†.</p>
+<p>† That extra 'p' is a typo.</p>
