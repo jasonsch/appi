@@ -6,13 +6,20 @@ namespace PagliacciApi
 {
     public class DeliveryLocation
     {
-        public string Name { get; private set; }
-        public string ID { get; private set; }
+        public string Address { get; private set; }
+        internal string ID { get; private set; }
+        public bool IsDefault { get; private set; }
 
-        public DeliveryLocation(string Name, string ID)
+        internal DeliveryLocation(string Address, string ID, bool IsDefault)
         {
-            this.Name = Name;
+            this.Address = Address;
             this.ID = ID;
+            this.IsDefault = IsDefault;
+        }
+
+        public override string ToString()
+        {
+            return $"Location: '{Address}' (ID = {ID}, IsDefault = {IsDefault}";
         }
     }
 }
