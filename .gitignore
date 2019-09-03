@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+credentials.txt
+.vs
+bin
+obj
